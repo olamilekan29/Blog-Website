@@ -12,7 +12,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 4px 70px 0px #1E283414;    
+    margin-top: 20px;
+    
+    
+    box-shadow: 0px 4px 70px 0px #1E283414;
+
+    
 }
 .navbar img{
     margin-left: 10px;
@@ -146,6 +151,7 @@ color: #1D2939;
 border-radius: 20px;
 justify-content: space-between;
 padding: 25px;
+margin-bottom: 20px;
 
 }
 .father-4{
@@ -195,6 +201,28 @@ padding: 25px;
     font-weight: 400;
     line-height: 28px;
 }
+.newsbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsbutton input{
+    font-size: 14px;
+     text-align: start;
+     height: 30px;
+     border-radius: 3px;
+     border: 1px solid gray;
+     width: 200px;
+}
+.newsbutton button{
+    width: 150px;
+     background: #1D2939;
+      font-size: 14px; 
+      color: #fff;
+      border: none;
+      height: 30px;
+      border-radius: 5px;
+}
 .last{
     display: grid;
 
@@ -208,4 +236,135 @@ padding: 25px;
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+@media (max-width: 990px){
+    body{
+        margin: 0 !important;
+        padding: 0 !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+    .navbar{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+      }
+    
+    .link ol {
+        display: none;
+    }
+    .link button{
+        display: none;
+    }
+    .herosection h2{
+        font-size: 25px;
+    }
+    .herosection h4{
+        font-size: 13px;
+    }
+    .div1 img{
+        width: 320px;
+        height: 220px;
+    }
+    .div2 img{
+        width: 320px;
+        height: 220px;
+    }
+    .border{
+        margin: 0 !important;
+        padding: 0 !important;
+        
+    }
+    .bor{
+        height: 0px;
+    }
+
+    .bord h3{
+    font-size: 13px;
+    }
+    .father{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .father-2{
+      display: flex !important; 
+       margin-left: 0 !important;
+        padding: 0 !important;  
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .father-2 h3{
+        text-align: center;
+        margin-right: 120px;
+        font-size: 18px;
+    }
+    .father-3{
+        display: grid;
+        margin-bottom: 20px;
+    }
+    .father-3 img{
+       width: 250px;
+    }
+    .father-4{
+        width: 100%;
+        margin: 0 !important;
+        margin-left: 10px !important;
+    }
+    .father-4 h3{
+        display: none;
+    }
+    .father-4 h2{
+        font-size: 13px;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    .father-4 h4{
+        margin-bottom: 20px !important;
+    }
+    .newsletter h3{
+        font-size: 18px;
+    }
+    .newsletter h4{
+        font-size: 10px;
+    }
+    .newsbutton{
+        display: grid;
+        width: 100%;
+    }
+    .newsbutton input{
+        width: 300px;
+    }
+    .newsbutton button{
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
