@@ -164,6 +164,28 @@ margin-top: 20px;
     font-weight: 400;
     line-height: 28px;
 }
+.newsbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsbutton input{
+    font-size: 14px;
+     text-align: start;
+     height: 30px;
+     border-radius: 3px;
+     border: 1px solid gray;
+     width: 200px;
+}
+.newsbutton button{
+    width: 150px;
+     background: #1D2939;
+      font-size: 14px; 
+      color: #fff;
+      border: none;
+      height: 30px;
+      border-radius: 5px;
+}
 .last{
     display: grid;
 
@@ -344,6 +366,17 @@ margin-top: 20px;
         justify-content: center;
         margin-left: 100px !important;
      }
+     .newsbutton{
+        display: grid;
+        width: 100%;
+    }
+    .newsbutton input{
+        width: 300px;
+    }
+    .newsbutton button{
+        width: 300px;
+        margin-top: 20px;
+    }
      
      
 
