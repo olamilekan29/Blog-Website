@@ -1,0 +1,30 @@
+.mobile-icon, .mobileIcon{
+    display: none;
+}
+
+@media (max-width: 990px) {
+    .mobile-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .mobileIcon{
+        display: none;
+    }
+    .navbar{
+        display: none;
+
+    }
+    .navbar ul{
+        display: block;
+    }
+    .navbar ul li{
+        list-style-type: none;
+    }
+
+    .mobileIcon:checked~.navbar{
+        display: grid;
+        position: absolute;
+        padding: 10px;
+
+    }
+}

@@ -5,41 +5,7 @@
    
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0px 4px 70px 0px #1E283414;
-}
-.navbar img{
-    margin-left: 10px;
-}
-.navbar li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.link ol{
-    margin-right: 30px;
-    color: #1D2939;
-}
-.link button{
-    background-color: #1D2939;
-    color: white;
-    border: 1px solid gray;
-    width: 97px;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    margin-left: 50px;
-     margin-right: 10px;
-}
 
-.mobileIcon,
-.mobile-icon{
-    display: none;
-}
 .herosection{
 display: grid;
 align-items: center;
@@ -362,7 +328,7 @@ padding: 25px;
         display: flex;
       }
     
-    .link ol {
+    .link li {
         display: none;
     }
     .link{
@@ -372,7 +338,7 @@ padding: 25px;
     display: block;
     cursor: pointer;
    }
-    .mobileIcon:checked~.link ol{
+    .mobileIcon:checked~.link li{
         display: grid;
         position: absolute;
         padding: 10px;
