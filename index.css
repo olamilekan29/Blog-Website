@@ -4,6 +4,51 @@
     box-sizing: border-box;
    
 }
+body{
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b9d1ff;
+}
+.moo{
+    display: flex;
+}
+.mo{
+    display: grid;
+}
+header img{
+    margin: 10px;
+}
+.mobile-icon, .mobileIcon{
+    display: none;
+}
+.navbar{
+    display: flex;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    display: flex;
+     margin-right: 40px;
+     color: black;
+
+}
+.navbar ul a{
+    text-decoration: none;
+}
+.navbar ul li span{
+    color: #F20A0A;
+}
+.bor{
+    border-bottom: 2px solid #F20A0A;
+}
 
 
 .herosection{
@@ -322,31 +367,80 @@ padding: 25px;
         margin: 0 !important;
         padding: 0 !important;
     }
-    .navbar{
-        margin-left: 10px;
-        margin-right: 10px;
-        display: flex;
-      }
-    
-    .link li {
+    header{
+        background: #b9d1ff;
+        display: grid;
+        justify-content: space-between !important;
+        align-items: center;
+       }
+        header img{
+            padding: 0;
+            margin: 0;
+            position: sticky;
+        }
+        #personally{
+            margin-right: 145px;
+        }
+      
+        .mock{
+            margin-right: 95px;
+        }
+        .mo{
+            display: flex;
+
+        }
+        .lab{
+            display: flex;
+        }
+        
+    .mobile-icon{
+        display: block;
+        cursor: pointer;
+        width: 20px;
+    }
+    .mobileIcon{
         display: none;
     }
-    .link{
-        display: block;
+    .navbar{
+        display: none;
+        background-color: #b9d1ff;
+        
+        padding: 0;
+        margin: 0;
+        display: grid;
+        text-align: left;
     }
-   .mobile-icon{
-    display: block;
-    cursor: pointer;
-   }
-    .mobileIcon:checked~.link li{
+    
+    .navbar ul{
+        display: block;
+         text-align: left !important;
+         display: grid !important;
+    }
+    .navbar ul li{
+        list-style-type: none;
+        margin-left: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .navbar ul a{
+        display: grid;
+        text-align: left;
+    }
+
+    .mobileIcon:checked~.navbar{
         display: grid;
         position: absolute;
-        padding: 10px;
-        background-color: #FFFFFF;
-        width: 90%;
-        top: 45px;}
-    .link button{
+       
         display: none;
+    }
+    .navbar ul button{
+        border: none;
+        width: 270px;
+        border-radius: 40px;
+        background: #C41740;
+    }
+    .mob{
+        display: grid !important;
+        text-align: start !important;
     }
     .herosection h1{
         font-size: 27px;
